@@ -1,0 +1,15 @@
+.ToDoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.ToDoList-List {
+    list-style: decimal;
+    width: 50vw;
+}
+
+.ToDoList-Head {
+    font-size: 3rem;
+}

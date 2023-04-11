@@ -1,0 +1,32 @@
+.ToDo {
+    margin: 0.2rem 0;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ToDo-Text {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.ToDo-Completed {
+    text-decoration: line-through;
+    color: gray
+}
+
+.ToDo-Remove-Btn {
+    display: none;
+    margin: 1.5rem 1rem;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid darkblue;
+    font-size: 1rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ToDo:hover .ToDo-Remove-Btn {
+    display: block;
+}

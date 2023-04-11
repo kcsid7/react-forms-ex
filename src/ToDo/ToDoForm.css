@@ -1,0 +1,15 @@
+.ToDoForm-Submit {
+    margin: 0 0.2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: darkblue;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+#todo {
+    height: 1.5rem;
+    width: 25rem;
+}
+
